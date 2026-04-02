@@ -5,8 +5,6 @@ import { JavaScriptLogo } from './JavaScript'
 import { Start } from './Start'
 import { useQuestionStore } from './store/questions'
 
-import './App.css'
-
 function App() {
   const questions = useQuestionStore(state => state.questions)
 
