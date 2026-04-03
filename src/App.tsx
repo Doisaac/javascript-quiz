@@ -1,7 +1,7 @@
 import { Container, Stack, Typography } from '@mui/material'
 
-import { Game } from './Game'
-import { JavaScriptLogo } from './JavaScript'
+import { Game } from './components/Game'
+import { JavaScriptLogo } from './icons/JavaScript'
 import { Start } from './Start'
 import { useQuestionStore } from './store/questions'
 

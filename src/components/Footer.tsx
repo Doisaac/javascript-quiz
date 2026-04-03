@@ -1,5 +1,5 @@
-import { useQuestionData } from './hooks/useQuestionData'
-import { useQuestionStore } from './store/questions'
+import { useQuestionData } from '../hooks/useQuestionData'
+import { useQuestionStore } from '../store/questions'
 
 export const Footer = () => {
   const { correct, incorrect, unanswered } = useQuestionData()
